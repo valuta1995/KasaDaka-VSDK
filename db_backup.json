@@ -2378,6 +2378,19 @@
   }
 },
 {
+  "model": "service_development.kasadakauser",
+  "pk": 2,
+  "fields": {
+    "caller_id": "0629582906",
+    "first_name": "",
+    "last_name": "",
+    "creation_date": "2019-05-08T08:28:09.621Z",
+    "modification_date": "2019-05-08T08:28:09.621Z",
+    "language": 2,
+    "service": 2
+  }
+},
+{
   "model": "service_development.callsession",
   "pk": 1,
   "fields": {
@@ -2707,6 +2720,138 @@
   "fields": {
     "start": "2019-05-01T12:55:48.711Z",
     "end": "2019-05-01T12:55:48.809Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 29,
+  "fields": {
+    "start": "2019-05-06T09:43:28.713Z",
+    "end": "2019-05-06T09:43:46.999Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 30,
+  "fields": {
+    "start": "2019-05-06T09:46:45.550Z",
+    "end": "2019-05-06T09:46:45.682Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 31,
+  "fields": {
+    "start": "2019-05-08T08:28:09.463Z",
+    "end": "2019-05-08T08:28:25.399Z",
+    "user": 2,
+    "caller_id": "0629582906",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 32,
+  "fields": {
+    "start": "2019-05-08T08:28:33.846Z",
+    "end": "2019-05-08T08:28:33.999Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 33,
+  "fields": {
+    "start": "2019-05-08T20:33:25.503Z",
+    "end": "2019-05-08T20:34:36.541Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 34,
+  "fields": {
+    "start": "2019-05-09T02:25:02.862Z",
+    "end": "2019-05-09T02:25:02.968Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 35,
+  "fields": {
+    "start": "2019-05-09T13:45:05.921Z",
+    "end": "2019-05-09T13:45:06.073Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 36,
+  "fields": {
+    "start": "2019-05-09T13:45:08.005Z",
+    "end": "2019-05-09T13:45:08.124Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 37,
+  "fields": {
+    "start": "2019-05-09T13:47:30.296Z",
+    "end": "2019-05-09T13:47:54.609Z",
+    "user": 2,
+    "caller_id": "0629582906",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 38,
+  "fields": {
+    "start": "2019-05-09T13:48:40.842Z",
+    "end": "2019-05-09T13:48:40.908Z",
+    "user": 2,
+    "caller_id": "0629582906",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 39,
+  "fields": {
+    "start": "2019-05-09T13:50:36.289Z",
+    "end": "2019-05-09T13:50:36.426Z",
     "user": null,
     "caller_id": null,
     "service": 2,
@@ -3849,6 +3994,206 @@
   "fields": {
     "time": "2019-05-01T12:55:48.823Z",
     "session": 28,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 115,
+  "fields": {
+    "time": "2019-05-06T09:43:28.906Z",
+    "session": 29,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 116,
+  "fields": {
+    "time": "2019-05-06T09:43:47.019Z",
+    "session": 29,
+    "_visited_element": 11,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 117,
+  "fields": {
+    "time": "2019-05-06T09:46:45.732Z",
+    "session": 30,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 118,
+  "fields": {
+    "time": "2019-05-08T08:28:09.708Z",
+    "session": 31,
+    "_visited_element": null,
+    "description": "Registered as user: 0629582906"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 119,
+  "fields": {
+    "time": "2019-05-08T08:28:09.803Z",
+    "session": 31,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 120,
+  "fields": {
+    "time": "2019-05-08T08:28:25.449Z",
+    "session": 31,
+    "_visited_element": 12,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 121,
+  "fields": {
+    "time": "2019-05-08T08:28:34.014Z",
+    "session": 32,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 122,
+  "fields": {
+    "time": "2019-05-08T20:33:25.615Z",
+    "session": 33,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 123,
+  "fields": {
+    "time": "2019-05-08T20:34:36.585Z",
+    "session": 33,
+    "_visited_element": 12,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 124,
+  "fields": {
+    "time": "2019-05-09T02:25:02.983Z",
+    "session": 34,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 125,
+  "fields": {
+    "time": "2019-05-09T13:45:06.089Z",
+    "session": 35,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 126,
+  "fields": {
+    "time": "2019-05-09T13:45:08.133Z",
+    "session": 36,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 127,
+  "fields": {
+    "time": "2019-05-09T13:47:30.402Z",
+    "session": 37,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 128,
+  "fields": {
+    "time": "2019-05-09T13:47:46.288Z",
+    "session": 37,
+    "_visited_element": 12,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 129,
+  "fields": {
+    "time": "2019-05-09T13:47:53.268Z",
+    "session": 37,
+    "_visited_element": 28,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 130,
+  "fields": {
+    "time": "2019-05-09T13:47:53.394Z",
+    "session": 37,
+    "_visited_element": 21,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 131,
+  "fields": {
+    "time": "2019-05-09T13:47:54.511Z",
+    "session": 37,
+    "_visited_element": 32,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 132,
+  "fields": {
+    "time": "2019-05-09T13:47:54.625Z",
+    "session": 37,
+    "_visited_element": 29,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 133,
+  "fields": {
+    "time": "2019-05-09T13:48:40.918Z",
+    "session": 38,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 134,
+  "fields": {
+    "time": "2019-05-09T13:50:36.469Z",
+    "session": 39,
     "_visited_element": 8,
     "description": null
   }
